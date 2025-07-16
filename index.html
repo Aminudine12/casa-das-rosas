@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Recupere seu dinheiro perdido com a Casa das Rosas. Aposte online com segurança na Placard Moçambique e transforme seus palpites em lucros.">
+  <title>Casa das Rosas - Recupere o Seu Dinheiro com a Placard</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #eee;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+      animation: fadeInDown 1s ease forwards;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #e91e63;
+      margin-bottom: 15px;
+      animation: fadeInUp 1.2s ease forwards;
+    }
+    header p {
+      font-size: 1rem;
+      color: #bbb;
+      animation: fadeInUp 1.4s ease forwards;
+    }
+    .bonus-section {
+      background: #e91e63;
+      color: #fff;
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(233,30,99,0.6);
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-align: center;
+      animation: fadeIn 1.5s ease forwards;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+      animation: fadeIn 1.6s ease forwards;
+    }
+    .cta-button {
+      background: #e91e63;
+      border: none;
+      color: white;
+      padding: 18px 50px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-radius: 40px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      box-shadow: 0 4px 15px rgba(233,30,99,0.6);
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #ad1457;
+      transform: scale(1.05);
+    }
+    .video-wrapper {
+      position: relative;
+      margin-top: 35px;
+      max-width: 100%;
+      height: 360px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    #soundToggle {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      background: rgba(233, 30, 99, 0.85);
+      border: none;
+      color: white;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+      transition: background 0.3s ease;
+      z-index: 10;
+    }
+    #soundToggle:hover {
+      background: rgba(173, 20, 87, 0.95);
+    }
+    ul.benefits {
+      list-style: none;
+      margin-top: 40px;
+      text-align: left;
+      color: #ddd;
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    ul.benefits li {
+      margin-bottom: 15px;
+      position: relative;
+      padding-left: 30px;
+    }
+    ul.benefits li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #e91e63;
+      font-weight: 700;
+    }
+    .share-container {
+      margin-top: 50px;
+    }
+    .share-button {
+      background: transparent;
+      border: 2px solid #e91e63;
+      color: #e91e63;
+      padding: 12px 28px;
+      font-weight: 600;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 1rem;
+      box-shadow: 0 0 5px rgba(233,30,99,0.5);
+    }
+    .share-button:hover {
+      background: #e91e63;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(233,30,99,0.8);
+    }
+    footer {
+      background: #1f1f1f;
+      color: #555;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9rem;
+      margin-top: 50px;
+    }
+    @keyframes fadeInDown {
+      0% {opacity: 0; transform: translateY(-50px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      0% {opacity: 0; transform: translateY(30px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+    @media (max-width: 640px) {
+      header h1 { font-size: 1.8rem; }
+      .video-wrapper { height: 200px; }
+      .cta-button { padding: 14px 30px; font-size: 1rem; }
+      ul.benefits { font-size: 1rem; }
+      .bonus-section { font-size: 1.1rem; padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💸 Recupere o Seu Dinheiro Perdido com a Casa das Rosas</h1>
+  <p>Aposte online com segurança em Moçambique e tenha uma nova chance de virar o jogo!</p>
+</header>
+
+<div class="bonus-section">
+  Crie uma nova conta na Placard e receba um <strong>bónus de até 5.000 MZN</strong> para começar a apostar com mais força!
+</div>
+
+<div class="container">
+  <a href="https://media1.placard.co.mz/redirect.aspx?pid=8898&bid=1690" target="_blank" class="cta-button" rel="noopener noreferrer">
+    🌹 Aposte Agora com a Casa das Rosas
+  </a>
+
+  <div class="video-wrapper">
+    <iframe id="videoIframe"
+      src="https://www.youtube.com/embed/bOv7_EPGqcQ?autoplay=1&mute=1&loop=1&playlist=bOv7_EPGqcQ"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <button id="soundToggle">🔊 Ativar Som</button>
+  </div>
+
+  <ul class="benefits">
+    <li>Bónus de boas-vindas para novos apostadores</li>
+    <li>Odds competitivas e atualizadas ao vivo</li>
+    <li>Plataforma legal e segura em Moçambique</li>
+    <li>Pagamentos rápidos e suporte local</li>
+  </ul>
+
+  <div class="share-container">
+    <button class="share-button" id="shareBtn">📤 Compartilhar com Amigos</button>
+  </div>
+</div>
+
+<footer>
+  © 2025 Casa das Rosas — Página oficial de afiliados da Placard Moçambique.
+</footer>
+
+<script>
+  const shareBtn = document.getElementById('shareBtn');
+  shareBtn.addEventListener('click', () => {
+    const shareData = {
+      title: 'Casa das Rosas - Recupere o Seu Dinheiro com a Placard',
+      text: 'Crie sua conta na Placard e receba bónus de até 5.000 MZN! Aposte agora com a Casa das Rosas.',
+      url: 'https://media1.placard.co.mz/redirect.aspx?pid=8898&bid=1690'
+    };
+    if (navigator.share) {
+      navigator.share(shareData).catch(console.error);
+    } else {
+      navigator.clipboard.writeText(shareData.url).then(() => {
+        alert('Link copiado para a área de transferência! Compartilhe com seus amigos.');
+      });
+    }
+  });
+
+  // Ativar som no vídeo
+  const soundToggle = document.getElementById('soundToggle');
+  const videoIframe = document.getElementById('videoIframe');
+  soundToggle.addEventListener('click', () => {
+    const srcWithSound = "https://www.youtube.com/embed/bOv7_EPGqcQ?autoplay=1&mute=0&loop=1&playlist=bOv7_EPGqcQ";
+    videoIframe.src = srcWithSound;
+    soundToggle.style.display = 'none';
+  });
+</script>
+
+</body>
+</html>
